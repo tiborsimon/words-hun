@@ -1,0 +1,7 @@
+Latest execution at 2018-02-10 10:20:49.518983
+
+    Word count:          79545
+    REST requests:       6338
+    Data downloaded:     278.25 MB
+    JSON file size:      1.71 MB
+    Execution time:      2755.15 s
