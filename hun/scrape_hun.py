@@ -8,8 +8,8 @@ import time
 from bs4 import BeautifulSoup
 
 
-OUTPUT_FILE_NAME = "hungarian.json"
-STATUS_FILE_NAME = "hungarian-last-execution.txt"
+OUTPUT_FILE_NAME = "hun.json"
+STATUS_FILE_NAME = "last-execution.txt"
 SOURCE_HOST = 'https://hu.wiktionary.org'
 SCRAPING_DATA = {
     'foldrajzi-nevek': '/wiki/Kateg%C3%B3ria:magyar_f%C3%B6ldrajzi_nevek',
