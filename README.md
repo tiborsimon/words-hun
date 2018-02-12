@@ -25,4 +25,4 @@ All JSON files were encoded with __UTF-8__.
 
 # License
 
-The whole repo is available under __Creative Commons ShareAlike 3.0__ (CC BY-SA 3.0) as the source is released under the same license.
+The whole repo is available under [__Creative Commons ShareAlike 3.0__](https://creativecommons.org/licenses/by-sa/3.0/deed.hu) (CC BY-SA 3.0) as the source is released under the same license. 
