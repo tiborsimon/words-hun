@@ -16,7 +16,7 @@ import queue
 
 WORKER_COUNT = 256
 WORKER_TIMEOUT = 10
-OUTPUT_DIR = 'words'
+OUTPUT_DIR = 'words-wiktionary'
 
 SOURCE_HOST = 'https://hu.wiktionary.org'
 SCRAPING_DATA = {
