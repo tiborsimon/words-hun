@@ -1,0 +1,11 @@
+create table words (
+  txt varchar(64),
+  hash varchar(32)
+);
+
+
+.separator \t
+.import _w.txt words
+
+create index word_index on words(hash);
+

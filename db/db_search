@@ -1,0 +1,16 @@
+create table permutations (
+  txt varchar(64),
+  hash varchar(32)
+);
+
+.separator \t
+.import _p.txt permutations
+
+create index permutation_index on permutations(hash);
+
+select w.txt
+from words w, permutations p
+where w.hash = p.hash and w.txt = p.txt;
+
+drop index permutation_index;
+drop table permutations;
